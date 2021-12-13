@@ -1,0 +1,5 @@
+all: clean
+	gcc A2.c list.c -o A2
+
+clean:
+	rm -f A2
